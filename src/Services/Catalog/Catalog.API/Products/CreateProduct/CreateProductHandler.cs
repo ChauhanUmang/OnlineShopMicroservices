@@ -3,6 +3,6 @@
 public record CreateProductCommand(string Name, List<string> Category, string Description, string ImangeFile, decimal Price);
 public record CreateProductResult(Guid Id);
 
-public class CreateProductHandler
+internal class CreateProductCommandHandler
 {
 }
